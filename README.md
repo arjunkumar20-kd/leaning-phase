@@ -1,67 +1,99 @@
-# JavaScript Logic & Mini-Projects Suite
+# Roast & Ritual — Coffee Landing Page
 
-A collection of foundational JavaScript programs demonstrating core programming concepts, including conditional logic, user input handling, type conversion, basic data structures, and mathematical algorithms.
+A polished, responsive coffee-shop landing page built with semantic HTML, custom CSS, and vanilla JavaScript. The page presents **Roast & Ritual**, a fictional neighborhood coffee shop, with animated interactions, menu highlights, and an interactive brew-bar playground.
 
-## 🚀 Projects Included
+## ✨ Features
 
-### 1. Age Classification System
-*   **File:** `ageClassifier.js`
-*   **Description:** Takes a user's age via a prompt window and categorizes them into life stages (Child, Adult, Senior Citizen) while strictly validating against negative or non-numeric inputs.
-*   **Key Concepts:** Multi-condition `if-else if` trees, logical operators (`&&`), input validation.
+- Responsive coffee-shop landing page for desktop and mobile screens
+- Hero section with animated visual elements and calls to action
+- Story, menu, bakery, and visit sections
+- Interactive roast-intensity slider and “Brew my cup” animation
+- GSAP-powered entrance, scroll, hover, and ambient animations
+- Reduced-motion support through `prefers-reduced-motion`
+- Custom typography loaded from Google Fonts
+- Additional HTML/CSS practice pages and JavaScript exercises
 
-### 2. Console Grade Checker
-*   **File:** `gradeChecker.js`
-*   **Description:** An interactive utility that evaluates student test scores from `0` to `100` and displays their corresponding letter grade alongside motivational performance feedback.
-*   **Key Concepts:** Boundary validation, string concatenation, variable management, evaluation thresholds.
+## 🛠️ Built With
 
-### 3. Odd or Even Number Checker
-*   **File:** `oddEvenChecker.js`
-*   **Description:** Determines if an entered integer is odd, even, or zero using basic arithmetic evaluations.
-*   **Key Concepts:** Modulus operator (`%`), strict equality checks (`===`), arithmetic logic.
+- **HTML5** — page structure and semantic content
+- **CSS3** — responsive layout, design system, and animations
+- **JavaScript** — interactions and animation control
+- **GSAP** — motion effects and ScrollTrigger animations
+- **Google Fonts** — Manrope and DM Mono
 
-### 4. Simple Two-Sum Logic
-*   **File:** `twoSum.js`
-*   **Description:** A fundamental introduction to algorithmic problem solving. The program collects two separate inputs, handles the explicit numeric type conversion, and checks if their sum matches a target configuration value (`9`).
-*   **Key Concepts:** Type casting (`Number()`), data type mutation, algorithmic target tracking.
+## 📁 Project Structure
 
----
-
-## 🛠️ Tech Stack & Requirements
-
-*   **Language:** JavaScript (ES6+)
-*   **Environment:** Web Browser Console (e.g., Chrome DevTools) or any environment supporting standard browser runtime APIs (`prompt`, `console`).
-
----
-
-## 💻 How to Run Locally
-
-### Method 1: Browser Console (Quickest)
-1. Copy the code snippet from any file.
-2. Open your preferred web browser.
-3. Right-click anywhere on the page and select **Inspect** (or press `F12`) to open the Developer Tools.
-4. Click on the **Console** tab.
-5. Paste the code and hit `Enter` to run the interactive prompt session.
-
-### Method 2: Local HTML Integration
-Create a simple `index.html` file in your project folder and link your script:
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>JavaScript Core Logic Lab</title>
-</head>
-<body>
-    <h1>Check your browser console to interact with the programs!</h1>
-    <!-- Link whichever file you want to test below -->
-    <script src="twoSum.js"></script>
-</body>
-</html>
+```text
+.
+├── index.html          # Main Roast & Ritual landing page
+├── styles.css          # Global layout and visual styles
+├── coffee.css          # Coffee-themed component styles
+├── script.js           # GSAP animations and playground interactions
+├── 1assi.html          # HTML practice exercise
+├── 2assi.html          # HTML practice exercise
+├── 3assi.html          # HTML practice exercise
+├── 4assi.html           # HTML practice exercise
+├── 4style.css           # Styles for exercise 4
+├── 5assi.html           # HTML practice exercise
+├── 5style.css           # Styles for exercise 5
+├── 6assi.html           # HTML practice exercise
+├── 6assi.css            # Styles for exercise 6
+├── 7assi.html           # HTML practice exercise
+├── 7assi.css            # Styles for exercise 7
+├── 8assi.html           # HTML practice exercise
+├── 8assi.css            # Styles for exercise 8
+├── 9assi.html           # HTML practice exercise
+├── 9assi.css            # Styles for exercise 9
+├── 10assi.html          # HTML practice exercise
+├── 10assi.css           # Styles for exercise 10
+├── 11assi.html          # HTML practice exercise
+├── 11assi.css           # Styles for exercise 11
+├── 12assi.html          # HTML practice exercise
+├── 12assi.css           # Styles for exercise 12
+├── 13assi.html          # HTML practice exercise
+├── Mini project.js      # JavaScript mini-project practice
+└── assingment/          # Additional assignment work
 ```
 
----
+## 🚀 Run Locally
 
-## 💡 Key Learnings Applied
+This is a static front-end project, so no package installation or build step is required.
 
-*   **Type Management:** Transitioned from native string prompt collection to clean numeric primitives using explicit conversion to prevent unwanted string concatenation errors.
-*   **Robust Edge-Case Filtering:** Constructed specific boundary logic to elegantly catch invalid system data inputs (e.g., scores out of bounds or negative age tracking).
+### Option 1: Open directly
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/arjunkumar20-kd/leaning-phase.git
+   cd leaning-phase
+   ```
+
+2. Open `index.html` in a modern browser.
+
+### Option 2: Use a local development server
+
+For the best experience, serve the project locally with an editor extension such as **Live Server**, or use any static HTTP server:
+
+```bash
+python -m http.server 8000
+```
+
+Then open [http://localhost:8000](http://localhost:8000) in your browser.
+
+## 🎛️ Interactive Demo
+
+In the **Find your cup** section:
+
+1. Adjust the **Roast intensity** slider.
+2. Click **Brew my cup**.
+3. Watch the brew-bar visual respond to your selection.
+
+GSAP and ScrollTrigger are loaded from jsDelivr in `index.html`, so an internet connection is required for the animations unless those dependencies are hosted locally.
+
+## ♿ Accessibility
+
+The project includes semantic sections, accessible labels for controls, descriptive navigation labels, and a reduced-motion fallback for visitors who have enabled `prefers-reduced-motion` in their operating system.
+
+## 📄 License
+
+This project is intended for learning and portfolio practice. Add a license if you plan to distribute or reuse the code publicly.
