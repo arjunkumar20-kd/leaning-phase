@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(65, 250, 3);
+}
+h1,h3{
+    color: rgb(255, 13, 0);
+}
+#btn{
+    background-color: blueviolet;
+    color: rgb(235, 226, 226);
+}
+.P{
+    color: rgb(61, 5, 245);
+}

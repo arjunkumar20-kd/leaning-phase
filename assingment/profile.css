@@ -1,0 +1,21 @@
+.B{
+    border: 3px solid rgb(255, 0, 140);
+    padding-left: 30px;
+    /* margin-right: 780px;
+    margin-left: 80px;
+    */
+    background-color: aqua;
+    width: 300px;
+    margin: auto;
+}
+.A{
+     border: 3px solid rgb(0, 81, 255);
+    padding-left: 30px;
+    margin-right: 780px;
+    margin-left: 80px;
+  
+    background-color: aqua;
+    text-align: center;
+     width: 300px;
+    margin: auto;
+}

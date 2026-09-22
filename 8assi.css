@@ -1,0 +1,27 @@
+/* .parent{
+    height: 400px;
+    width: 400px;
+    background: cornflowerblue;
+    position: relative;
+}
+.child{
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+ .parent{
+    background: rgb(245, 50, 6); 
+    height: 60px;
+    width:60px;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.badge{
+    position: absolute;
+    left: 55px;
+    bottom: 50px;
+}

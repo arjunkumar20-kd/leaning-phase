@@ -1,0 +1,104 @@
+/* .box{
+    height: 50px;
+    width: 50px;
+    color: violet;
+    border: 2px solid black;
+    background-color: rgb(10, 110, 1);
+
+
+    position: fixed;
+    top: 50%;
+    left: 80%;
+
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Webi{
+    background: rosybrown;
+    /* position:absolute;  ❌ Remove this */
+}
+
+/* Sticky Navbar */
+.nav{
+    height: 60px;
+    width: 100%;
+    background: rgb(10,110,1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    position: sticky;
+    top: 0;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.w{
+    background: rgb(10,110,1);
+    height: 650px;
+}
+
+.we{
+    background: rgb(24,186,9);
+    height: 650px;
+}
+
+.web{
+    background: rgb(23,246,3);
+    height: 650px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+.Webi{
+    color: rgb(7, 7, 7);
+    background: rosybrown;
+    position: absolute;
+
+}
+.Webi nav{
+      display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(10, 110, 1);
+    position: sticky;
+    top: 0;
+    left: 0;
+     flex-direction:row;
+    align-items: center;
+    justify-content: center; 
+}
+.w{
+    background-color: rgb(10, 110, 1);
+    height: 650px;
+    width: 600px;
+}
+.we{
+    background-color: rgb(24, 186, 9);
+    height: 650px;
+    width: 600px;
+}
+.web{
+    background-color: rgb(23, 246, 3);
+    height: 650px;
+    width: 600px;
+}

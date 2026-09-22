@@ -1,0 +1,66 @@
+@media(max-width:768px){
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 50px;
+    width: 1200px;
+    gap: 250px;
+        background-color: blueviolet;
+    border: 3px solid black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+/* .logo:hover{
+        box-shadow: 10px 15px 15px 15px rgb(68, 66, 65);
+    transition-delay: .2s;
+} */
+.nav{ 
+    height: 45px;
+    width: 1200px;
+    display: flex;
+
+    /* justify-content: center; ye nhi use hoga */
+    /* flex:end; */
+    /* gap: 20px; */
+    /* space:between; */
+
+    align-items: center;
+    gap: 40px;
+    
+    top: 0;
+    left: 0;
+
+    border-radius: 5px;
+    flex-direction: row;
+}
+
+.nav a{
+    color: rgb(145, 35, 132);
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    border: 3px solid black;
+    border-radius: 40px;
+    background-color: aquamarine;
+    height: 30px;
+    width: 50px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+}
