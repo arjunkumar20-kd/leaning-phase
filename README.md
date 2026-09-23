@@ -1,99 +1,123 @@
-# Roast & Ritual — Coffee Landing Page
+# Roast & Ritual — Coffee Landing Page & Front-End Practice
 
-A polished, responsive coffee-shop landing page built with semantic HTML, custom CSS, and vanilla JavaScript. The page presents **Roast & Ritual**, a fictional neighborhood coffee shop, with animated interactions, menu highlights, and an interactive brew-bar playground.
+A front-end learning repository built around a polished coffee-shop landing page for Roast & Ritual and a collection of HTML, CSS, and JavaScript assignments. The project combines marketing-site design, responsive layout work, and practical exercises to strengthen core web development skills.
 
-## ✨ Features
+## Overview
 
-- Responsive coffee-shop landing page for desktop and mobile screens
-- Hero section with animated visual elements and calls to action
-- Story, menu, bakery, and visit sections
-- Interactive roast-intensity slider and “Brew my cup” animation
-- GSAP-powered entrance, scroll, hover, and ambient animations
-- Reduced-motion support through `prefers-reduced-motion`
-- Custom typography loaded from Google Fonts
-- Additional HTML/CSS practice pages and JavaScript exercises
+This repository contains:
 
-## 🛠️ Built With
+- A responsive coffee brand landing page with a premium, warm aesthetic
+- Reusable HTML structure and semantic page sections
+- Custom CSS for layout, cards, buttons, typography, and visual storytelling
+- JavaScript-powered interactivity and animation enhancements
+- Several small assignment files that practice HTML/CSS/JS fundamentals
 
-- **HTML5** — page structure and semantic content
-- **CSS3** — responsive layout, design system, and animations
-- **JavaScript** — interactions and animation control
-- **GSAP** — motion effects and ScrollTrigger animations
-- **Google Fonts** — Manrope and DM Mono
+## Features
 
-## 📁 Project Structure
+- Responsive landing page for desktop and mobile layouts
+- Hero section with branding and clear calls to action
+- Story, menu, bakery, and visit sections for a complete coffee brand experience
+- Interactive roast-intensity slider and brew animation
+- GSAP-based motion effects, scroll animations, and hover transitions
+- Reduced-motion support using `prefers-reduced-motion`
+- Custom font pairing with Google Fonts for a refined UI
+- Additional practice files demonstrating front-end learning exercises
+
+## Tech Stack
+
+- HTML5 — semantic structure and content
+- CSS3 — styling, layout, responsiveness, and visual polish
+- JavaScript — interactions and UI behavior
+- GSAP — animations and motion effects
+- Google Fonts — typography enhancement
+
+## Project Structure
 
 ```text
 .
-├── index.html          # Main Roast & Ritual landing page
-├── styles.css          # Global layout and visual styles
-├── coffee.css          # Coffee-themed component styles
-├── script.js           # GSAP animations and playground interactions
-├── 1assi.html          # HTML practice exercise
-├── 2assi.html          # HTML practice exercise
-├── 3assi.html          # HTML practice exercise
+├── index.html           # Main Roast & Ritual landing page
+├── styles.css           # Core layout and global styling
+├── coffee.css           # Coffee-themed component styling
+├── script.js            # Interaction logic and GSAP animations
+├── img.jpg              # Hero or supporting image asset
+├── 1assi.html           # HTML practice exercise
+├── 2assi.html           # HTML practice exercise
+├── 3assi.html           # HTML practice exercise
 ├── 4assi.html           # HTML practice exercise
-├── 4style.css           # Styles for exercise 4
+├── 4style.css           # Styles for assignment 4
 ├── 5assi.html           # HTML practice exercise
-├── 5style.css           # Styles for exercise 5
+├── 5style.css           # Styles for assignment 5
 ├── 6assi.html           # HTML practice exercise
-├── 6assi.css            # Styles for exercise 6
+├── 6assi.css            # Styles for assignment 6
 ├── 7assi.html           # HTML practice exercise
-├── 7assi.css            # Styles for exercise 7
+├── 7assi.css            # Styles for assignment 7
 ├── 8assi.html           # HTML practice exercise
-├── 8assi.css            # Styles for exercise 8
+├── 8assi.css            # Styles for assignment 8
 ├── 9assi.html           # HTML practice exercise
-├── 9assi.css            # Styles for exercise 9
+├── 9assi.css            # Styles for assignment 9
 ├── 10assi.html          # HTML practice exercise
-├── 10assi.css           # Styles for exercise 10
+├── 10assi.css           # Styles for assignment 10
 ├── 11assi.html          # HTML practice exercise
-├── 11assi.css           # Styles for exercise 11
+├── 11assi.css           # Styles for assignment 11
 ├── 12assi.html          # HTML practice exercise
-├── 12assi.css           # Styles for exercise 12
+├── 12assi.css           # Styles for assignment 12
 ├── 13assi.html          # HTML practice exercise
-├── Mini project.js      # JavaScript mini-project practice
-└── assingment/          # Additional assignment work
+├── 13assi.css           # Empty stylesheet placeholder for assignment 13
+├── Mini project.js      # JavaScript mini-project practice file
+├── assingment/          # Additional assignment work
+├── .github/             # GitHub configuration files
+├── README.md            # Project documentation
+└── LICENSE              # Optional license file if added later
 ```
 
-## 🚀 Run Locally
+## Run Locally
 
-This is a static front-end project, so no package installation or build step is required.
+This is a static front-end project, so there is no build step required.
 
 ### Option 1: Open directly
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/arjunkumar20-kd/leaning-phase.git
-   cd leaning-phase
-   ```
+```bash
+git clone https://github.com/arjunkumar20-kd/leaning-phase.git
+cd leaning-phase
+```
 
 2. Open `index.html` in a modern browser.
 
 ### Option 2: Use a local development server
 
-For the best experience, serve the project locally with an editor extension such as **Live Server**, or use any static HTTP server:
+For the best experience, run a local static server:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open [http://localhost:8000](http://localhost:8000) in your browser.
+Then open `http://localhost:8000` in your browser.
 
-## 🎛️ Interactive Demo
+## Demo Interaction
 
-In the **Find your cup** section:
+In the landing page, visitors can:
 
-1. Adjust the **Roast intensity** slider.
-2. Click **Brew my cup**.
-3. Watch the brew-bar visual respond to your selection.
+1. Adjust the roast intensity slider
+2. Click the brew button
+3. See the interactive visual response update in real time
 
-GSAP and ScrollTrigger are loaded from jsDelivr in `index.html`, so an internet connection is required for the animations unless those dependencies are hosted locally.
+The project uses GSAP and ScrollTrigger from jsDelivr, so an internet connection is required for the animation library unless dependencies are hosted locally.
 
-## ♿ Accessibility
+## Accessibility
 
-The project includes semantic sections, accessible labels for controls, descriptive navigation labels, and a reduced-motion fallback for visitors who have enabled `prefers-reduced-motion` in their operating system.
+The project includes:
 
-## 📄 License
+- Semantic HTML sections and landmarks
+- Accessible form labels and interactive controls
+- Descriptive navigation content
+- Reduced-motion fallback support for users with `prefers-reduced-motion` enabled
 
-This project is intended for learning and portfolio practice. Add a license if you plan to distribute or reuse the code publicly.
+## Notes
+
+This repository is primarily a learning-focused project and is intended for front-end practice, experimentation, and portfolio-style work. It is a practical example of building a branded landing page alongside smaller web development exercises.
+
+## License
+
+This project is currently intended for learning and personal portfolio use. Add a license if you plan to distribute or reuse the code publicly.
