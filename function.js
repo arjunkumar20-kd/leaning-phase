@@ -1,28 +1,31 @@
 function addNumbers(firstNumber , secondNumber){
-    console.log(firstNumber+secondNumber);
+    return (firstNumber+secondNumber);
 }
-addNumbers(20,30);
-
+let answer = addNumbers(20,30);
+console.log(answer);
 
 function subtract(firstNumber,secondNumber){
-    console.log(firstNumber-secondNumber)
+    return (firstNumber-secondNumber); 
 }
-subtract(5,55);
+let subtractAnswer = subtract(5,55);
+console.log(subtractAnswer);    
 
 
 function multiply(firstNumber,secondNumber){
-    console.log(firstNumber*secondNumber);
+    return (firstNumber*secondNumber);
 }
-multiply(20,30);
+let multiplyAnswer = multiply(20,30);
+console.log(multiplyAnswer);
 
 
 function divide(firstNumber,secondNumber){
-    console.log(firstNumber/secondNumber)
+    return (firstNumber/secondNumber);
 }
-divide(5,55);
-
+let divideAnswer = divide(5,55);
+console.log(divideAnswer);
 
 function modulo(firstNumber,secondNumber){
-    console.log(firstNumber%secondNumber)
+    return (firstNumber%secondNumber)
 }
-modulo(5,55);
+let moduloAnswer = modulo(5,55);
+console.log(moduloAnswer);
